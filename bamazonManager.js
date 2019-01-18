@@ -62,6 +62,7 @@ function lowInv() {
         // if no low inventory items
         if (res.length < 1) {
             return console.log("There are no low inventory items at this time");
+            start();
         };
         // log items with low inventory
         for (i = 0; i < res.length; i++) {
